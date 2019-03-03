@@ -1,8 +1,13 @@
 ## Welcome to GitHub Pages
 
+
 You can use the [editor on GitHub](https://github.com/msritambhra/coursera/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Coursera assignments:
+
+1. Module 2 Assignment
+
+[Assignment for Module 2: Best Of Stephen Hawking](https://github.com/msritambhra/coursera/blob/gh-pages/mod2-asg/index.html).  
 
 ### Markdown
 
@@ -22,6 +27,7 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
+
 
 [Link](url) and ![Image](src)
 ```
