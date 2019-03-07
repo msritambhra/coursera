@@ -30,7 +30,7 @@ body{
 .navbar-brand h1{
 	font-family: 'Lora', serif;
     color:#557c3e;
-    font-size: 1,7em;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #223;
@@ -54,4 +54,153 @@ body{
 
 #nav-list{
 	margin-top: 15px;
+}
+
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#nav-list a span{
+	font-size: 1.2em;
+}
+
+#phone{
+	margin-top: 5px;
+}
+
+#phone a{ /*phone number*/
+	text-align: right;
+	padding-bottom: 0;
+
+}
+
+#phone div{ /*we deliver*/
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+
+}
+
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+    margin-top: -30px;
+}
+
+
+/**END HEADER**/
+/*************large devices*****************/
+@media(min-width: 1200px){
+  
+.container .jumbotron{
+	background: url("https://assemblyarchitects.files.wordpress.com/2011/09/20110829_britomart_0095-1200-pixel.jpg") no-repeat;
+	height:675px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+}
+
+/***********medium devices*****************/
+@media(min-width: 992px) and (max-width: 1199px ){
+
+
+.container .jumbotron{
+	background: url("https://assemblyarchitects.files.wordpress.com/2011/09/20110829_britomart_0095-1200-pixel.jpg") no-repeat;
+	height:558px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+#logo-img{
+
+	background: url("https://www.seoclerk.com/pics/551103-1TOqFD1502285018.jpg") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+
+}
+
+}
+
+/*************small devices****************/
+@media(min-width: 768px) and (max-width: 991px){
+
+.container .jumbotron{
+	background: url("https://assemblyarchitects.files.wordpress.com/2011/09/20110829_britomart_0095-1200-pixel.jpg") no-repeat;
+	height:432px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+
+}
+
+/*******xs devices************************/
+@media(max-width:767px){
+
+.navbar-brand {
+	padding-top: 10px;
+	height: 80px;
+
+}
+
+.navbar-brand h1{
+	padding-top: 10px;
+	font-size: 5vw; /*viewport width. 1vw=1% of viewport width*/
+}
+
+.navbar-brand p{
+	text-transform: uppercase;
+	font-size: .6em;
+	margin-top: 12px;
+}
+
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+
+#collapsable-nav a span{
+
+font-size: 1em;
+margin-right: 5px;
+
+}
+
+.btn {
+	
+	font-family: 'Lora', serif;
+    color:#951c49;
+    font-size: 1em;
+    background-color: #f6b319;
+    display: block;
+    margin:  0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+#xs-deliver {
+	margin-top: 5px;
+	font-size: .5em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+
+.container .jumbotron{
+	margin-top: 30px;
+	padding:0;
+
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F ;
+
+}
+
 }
