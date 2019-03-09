@@ -95,9 +95,88 @@ body{
 	clear: both;
     margin-top: -30px;
 }
+ 
+
+/** end of HEADER **/
 
 
-/**END HEADER**/
+/**Main content**/
+#menu-tile,#specials-tile,#map-tile{
+	height: 250px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 15px;
+	border: 2px solid #3F0C1F;
+
+}
+
+#menu-tile{
+	background: url("https://asset2.cxnmarksandspencer.com/is/image/mands/44e79d5a6007d11fd420b6c302d0f2fc0ef404da?$Homepage_600x330$") no-repeat;
+	background-position: center;
+	background-size: 150%;
+
+}
+
+#specials-tile{
+	background: url("https://donahuesmadisonbeachgrille.com/wp-content/uploads/2016/03/013.jpg") no-repeat;
+	background-position: center;
+	background-size: 120%;
+}
+
+#menu-tile:hover ,#specials-tile:hover , #map-tile:hover{
+	box-shadow: 0 1px 5px 1px  #cccccc;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+	border-radius: ;
+
+
+
+}
+
+/**FOOTER**/
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+
+
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address{
+	line-height: 2;
+}
+
+#hours span, #address span{
+	font-size: 1.3em;
+	font-style: bold;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+    
+} 
+/**END hOME PAGE**/
 /*************large devices*****************/
 @media(min-width: 1200px){
   
@@ -201,6 +280,18 @@ margin-right: 5px;
 	box-shadow: 0 0 50px #3F0C1F;
 	border: 2px solid #3F0C1F ;
 
+}
+
+.panel-footer section{
+	margin-bottom: 30px;
+	text-align: center;
+
+
+}
+
+.panel-footer section  hr{
+ 
+  width: 50%;
 }
 
 }
